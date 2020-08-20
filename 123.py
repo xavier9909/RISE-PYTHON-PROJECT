@@ -28,7 +28,14 @@ def wishMe():
     else:
         speak("Good Evening!")  
 
-    speak("I am Jarvis Sir. Please tell me how may I help you")       
+    print("I am Xavier , Sir. Please tell me how may I help you")
+    speak("I am Xavier , Sir. Please tell me how may I help you")
+    print("This project made by xavier inspired by vimal daga")
+    speak("This project made by xavier inspired by vimal daga")
+    print("I can do certain things like opening websites sending email also i can read someone's wiki page for you")
+    speak("I can do certain things like opening websites sending email also i can read someone's wiki page for you")
+    print("if you think that this is not enough you can code me from scratch")    
+    speak("if you think that this is not enough you can code me from scratch")     
 
 def takeCommand():
     #It takes microphone input from the user and returns string output
@@ -93,11 +100,11 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
 
-        elif 'open code' in query:
-            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+        elif 'open notepad' in query:
+            codePath = "C:\\Windows\\system32\\notepad.exe"
             os.startfile(codePath)
 
-        elif 'email to harry' in query:
+        elif 'email to vimal daga' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
