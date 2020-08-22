@@ -1,6 +1,6 @@
 # RISE-PYTHON-PROJECT
 
-#What can this A.I. assistant do for you?
+# What can this A.I. assistant do for you?
 
 
    * It can send emails for you.
@@ -10,9 +10,9 @@
    * It is capable of opening your PC apps.
 
 
-#Let's just start dependencies issues
+# Let's just start dependencies issues
 REQUIRES == PYTYHON-64-BIT
-###if you want to run this program error free install these modules
+### if you want to run this program error free install these modules
 
 * python -m pip install pyttsx3
 * python -m pip install wikipedia
@@ -22,4 +22,4 @@ REQUIRES == PYTYHON-64-BIT
 
 
 
-###now you are ready to go
+### now you are ready to go
